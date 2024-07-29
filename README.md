@@ -41,9 +41,14 @@ Please make sure your project includes jQuery, as it is required for the toast n
   
 - File Locations (relative):
 
-To accurately reference files within a relative path structure in your project, such as linking to CSS or JavaScript files located in a directory relative to your current file, you'll need to adjust the path in your HTML to ensure it correctly points to these resources. 
-It would be a good idea to put the files into a folder called "toast", which is one level up from your current location, so the path should be set as "../toast".  This means the link in your HTML file should be similar to the following example:
-  ```html  
+  To accurately reference files within a relative path structure in your project, such as linking to CSS or JavaScript files located in a directory relative to your current file, you'll need to adjust the path in your HTML to ensure it correctly points to these resources. 
+  
+  It would be a good idea to put the files into a folder called "toast", which is one level up from your current location, so the path should be set as "../toast".  This means the links in your HTML file should be similar to the following example:
+  ```html
+  // css file include:
+  <link rel="stylesheet" href="../toast/toast-style.css">
+
+  // js file include:
   <script src="../toast/toast-notification.js"></script>
   ```
 
