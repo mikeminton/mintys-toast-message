@@ -1,0 +1,43 @@
+<!--
+	File: example.html
+	Description: This html example file displays a toast message when you click the button. (note that the css and js files need to be located in a folder called toast.
+	Author: Michael Minton UK
+	Created on: July 29, 2024
+	License: Unlicence License
+	Website: https://mikeminton.xyz
+	Contact: mikeminton.uk@outlook.com
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mintys Toast Message Example</title>
+    <!-- Link to the Toast Notification Stylesheet -->
+    <link rel="stylesheet" href="../toast/toast-style.css">
+</head>
+<body>
+
+    <h1>Mintys Toast Message Demo</h1>
+    <button id="displayToastBtn">Display Toast</button>
+
+    <!-- Link to jQuery library -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  
+    <!-- Link to the Toast Notification Script -->
+    <script src="../toast/toast-notification.js"></script>
+
+    <script>
+        // Setup the button click event to display a toast
+        $(document).ready(function() {
+            $('#displayToastBtn').click(function() {
+                // Call the custom toast function when the button is clicked
+                // Example: toastMessage('This is a toast message!', 'success');
+                toastMessage('Hello, this is your toast notification!', 'success');
+            });
+        });
+    </script>
+
+</body>
+</html>
