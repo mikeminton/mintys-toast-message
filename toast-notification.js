@@ -4,8 +4,9 @@
  * Author: Michael Minton UK
  * Created on: July 29, 2024
  * License: Unlicence License
- * Website: https://github.com/mikeminton
- */
+ * Website: https://mikeminton.xyz
+ * Contact: mikeminton.uk@outlook.com
+ **/
 
 function toastMessage(text, type = 'warning') {
     const iconMap = {
