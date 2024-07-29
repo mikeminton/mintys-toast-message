@@ -16,9 +16,9 @@ function toastMessage(text, type = 'warning') {
     };
 
     const colorMap = {
-        success: '#28a745',
-        warning: '#ffc107',
-        error: '#dc3545'
+        success: '#309448',
+        warning: '#B86B0E',
+        error: '#831D27'
     };
 
     const toastContainer = document.querySelector('.toast-container') || createToastContainer();
