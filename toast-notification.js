@@ -1,3 +1,12 @@
+/**
+ * File: toast-notification.js
+ * Description: This script provides a customizable toast notification system.
+ * Author: Michael Minton UK
+ * Created on: July 29, 2024
+ * License: Unlicence License
+ * Website: https://github.com/mikeminton
+ */
+
 function toastMessage(text, type = 'warning') {
     const iconMap = {
         success: '<i class="fas fa-check-circle"></i>',
