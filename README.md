@@ -1,7 +1,7 @@
 
 # Minty's Toast Message (mintys-toast-message)
 
-This repository contains a lightweight, customizable toast notification system built with JavaScript and CSS. It provides an easy way to integrate informative and interactive notifications into your web projects without needing third-party plugins.
+This repository contains a lightweight, customisable toast notification system built with JavaScript and CSS. It provides an easy way to integrate informative and interactive notifications into your web projects without needing third-party plugins.
 
 ## Features
 
