@@ -72,19 +72,18 @@ To use the toast notification system, call the toastMessage function wherever yo
 - text (string): The message you want to display.
 - type (string): The type of notification ('success', 'warning', or 'error'). The default is 'warning'.
 
+
+
 ## Example
 
 You will also find an HTML file named example.html. This file includes a button that, when clicked, will display a toast notification. The toast functionality is assumed to be correctly defined in your toast-notification.js file.
-The CSS and JavaScript files are located within a folder called "toast" in your working folder.
-
-
-
+The CSS and JavaScript files are expected to be located within a folder called "toast" in your working folder.
 
 ## Customisation
-Modify the CSS file to change the appearance of the toast messages, such as background color, text color, and animation duration.
+Modify the CSS file to change the appearance of the toast messages, such as background colour, text colour, and animation duration.
 
 ## Contributing
-Contributions are welcome! For major changes, please open an issue first to discuss what you would like to change.
+Contributions are welcome! For major changes, please open an issue first to discuss what you want to change.
 
 ## License
 Distributed under the Unlicence License.
