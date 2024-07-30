@@ -47,9 +47,17 @@ Please make sure your project includes jQuery, as it is required for the toast n
   ```html
   // css file include:
   <link rel="stylesheet" href="../toast/toast-style.css">
-
+  
   // js file include:
   <script src="../toast/toast-notification.js"></script>
+  ```
+  Or, you could put the full URL into the src field, such as 'https://mikeminton.xyz/toast/toast-notification.js', where the 'mikeminton.xyz' is your domain name, example:
+  ```html
+  // css file include:
+  <link rel="stylesheet" href="https://mikeminton.xyz/toast/toast-style.css">
+  
+  // js file include:
+  <script src="https://mikeminton.xyz/toast/toast-notification.js"></script>
   ```
 
 ### Usage
